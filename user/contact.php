@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
     
     
     mail($subject, $mailTo,  $txt, $headers);
-    header("Location: index.php?mailsend");
+    echo '<script>alert("Account Successfully created...Kinldy log into your dashboard.")</script>';
+                                    echo '<script>window.location= "login.php"</script>';
 }
  
