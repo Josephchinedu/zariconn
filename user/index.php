@@ -63,7 +63,7 @@
                     
                     
                 
-                    <img src="Capture.PNG">
+                    <a href="../"><img src="Capture.PNG"></a>
                 </div>
             </nav>
 
