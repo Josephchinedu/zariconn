@@ -2,10 +2,10 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 
-    define('db_host', 'localhost');
-    define('db_user', 'nextiftk_zari');
-    define('db_pass', 'Ability_2020');
-    define('db_name', 'nextiftk_zari');
+    define('db_host', 'aqx5w9yc5brambgl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+    define('db_user', 'shdumyrijc7cm27m');
+    define('db_pass', 'yilb8786500swywi');
+    define('db_name', 'xmeead3z8qon4nkv');
     
     class dbh{
         public $host = db_host;
