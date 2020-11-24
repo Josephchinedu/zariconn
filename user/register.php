@@ -65,7 +65,7 @@
                             $repeat_pass = $_POST['repeat-pass'];
                             $country = $_POST['country'];
                             $phoneNumber = $_POST['phoneNumber'];
-                            $connection = mysqli_connect("localhost", "nextiftk_zari", "Ability_2020", "zari");
+                            $connection = mysqli_connect("aqx5w9yc5brambgl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "shdumyrijc7cm27m", "yilb8786500swywi", "xmeead3z8qon4nkv");
                             $query = mysqli_query($connection,"SELECT * FROM members WHERE email = '$email'");
                             $num = mysqli_num_rows($query);
                             $registerDate = date("Y-m-d");
